@@ -17,7 +17,7 @@
 .hero-contact small strong{display:block;color:#245bff;font-size:clamp(18px,1.3vw,30px);font-weight:800;letter-spacing:.12em;line-height:1.4}
 .hero-contact small span{display:block;font-size:clamp(11px,.72vw,15px);letter-spacing:.22em}
 .hero-name{position:absolute;z-index:1;top:46%;left:50%;transform:translate(-50%,-50%);font-family:Arial,"Helvetica Neue",sans-serif;font-size:max(100px,18.7vw);font-weight:900;letter-spacing:-.095em;line-height:.8;white-space:nowrap}
-.hero .portrait{z-index:3;left:50%;bottom:-12vh;transform:translateX(-50%);height:100vh;width:auto;max-width:none;filter:grayscale(1) contrast(1.04);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 87%,transparent 98%);mask-image:linear-gradient(to bottom,#000 0%,#000 87%,transparent 98%)}
+.hero .portrait{z-index:3;left:50%;bottom:-12vh;transform:translateX(-50%);height:100vh;width:auto;max-width:none;filter:none;-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 87%,transparent 98%);mask-image:linear-gradient(to bottom,#000 0%,#000 87%,transparent 98%)}
 .hero .signature{z-index:5;top:51%;right:5%;font-size:clamp(46px,5.2vw,98px);clip-path:none;transform:rotate(-9deg);color:#245bff;pointer-events:none;transition:none}
 .js .hero-nav,.js.revealed .hero-nav{opacity:1;visibility:visible;transform:none;transition:none}
 .hero-nav{position:absolute;z-index:6;left:3.5%;right:3.5%;top:auto;bottom:15.5%;inset:auto 3.5% 15.5%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(180px,3.1fr) minmax(0,1fr) minmax(0,1fr);gap:2.6vw;align-items:start;pointer-events:auto}
